@@ -109,8 +109,8 @@ a{
 	color: rgba(0,0,0,.54);
 }
 .nav_right{
-	position: relative;
-	left:60%;
+	float: right;
+    padding-right: 20px !important;
 }
 .country{
 	margin: 0;
