@@ -1,6 +1,23 @@
+a{
+	text-decoration: none;
+	padding: 10px;
+}
+/**** header style ****/
+.header{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+}
 
+.header_nav a {
+	padding: 20px 8px 20px 8px;
+}
 
-
+.header_button{
+	padding:10px  20px 10px 20px;
+	margin-right: 20px;
+    background-color: lightblue;
+}
 /**** main style****/
 
 .container{
@@ -24,7 +41,7 @@
     padding-left: 50px;
 }
 
-.icon{
+.search_icon{
  position: relative;
  left: 40px;
  color: gray;
@@ -34,7 +51,7 @@
  width: 15px;
  height: 20px;
  position: relative;
- right: 40px;
+ right: 45px;
  top:5px;
 }
 
