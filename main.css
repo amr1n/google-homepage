@@ -1,3 +1,13 @@
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
 a{
 	text-decoration: none;
 	padding: 10px;
@@ -23,6 +33,7 @@ a{
 .container{
 	display: flex;
 	justify-content: center;
+	flex: 1 0 auto;
 }
 
 .logo{
@@ -81,4 +92,33 @@ a{
 	font-size: 15px;
 	text-align: center;
 	padding-top: 30px;
+}
+
+
+/****footer****/
+.footer_nav{
+ padding-top: 13px;
+ height: 27px;
+ padding-left: 20px;
+ background-color: #f2f2f2;
+}
+
+.footer_nav a{
+	padding: 0;
+	padding-right: 10px;
+	color: rgba(0,0,0,.54);
+}
+.nav_right{
+	position: relative;
+	left:60%;
+}
+.country{
+	margin: 0;
+	color: rgba(0,0,0,.54);
+	background-color: #f2f2f2;
+	border-top: 1px solid rgba(0,0,0,.54);
+	border-bottom: 1px solid rgba(0,0,0,.50);
+	padding-top: 13px;
+	height: 27px;
+	padding-left: 20px;
 }
